@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transporte Escolar Tia Patricia</title>
+  <style>
+    .container {
+      max-width: 1200px;
+      /* Limita a largura da área de visualização */
+      margin: 0 auto;
+      /* Centraliza a área de visualização */
+      padding: 20px;
+      /* Adiciona um pouco de preenchimento */
+    }
+
+    .album {
+      display: flex;
+      flex-wrap: wrap;
+      /* Permite que os itens se movam para a linha seguinte se não houver espaço suficiente */
+      gap: 10px;
+      /* Espaçamento entre as fotos */
+    }
+
+    .photo img {
+      width: 300px;
+      /* Largura da imagem */
+      height: 500px;
+      /* Altura da imagem */
+      object-fit: cover;
+      /* Mantém a proporção da imagem e cobre o contêiner */
+      border: 5px solid black;
+      /* Adiciona uma borda preta de 5 pixels */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container" id="album">
+    <h2>Álbum de Fotos</h2>
+    <div class="album">
+      <div class="photo">
+        <img src="van1.jpeg" alt="Foto 1">
+      </div>
+      <div class="photo">
+        <img src="van2.jpeg" alt="Foto 2">
+      </div>
+      <div class="photo">
+        <img src="cri.jpeg" alt="Foto 3">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
